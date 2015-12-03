@@ -1,7 +1,12 @@
-body{
-	background-image: url(../img/homebkg.png);
-	background-repeat: no-repeat;
-	background-size: cover;
+#bg{
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+	
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
 }
 
 h1 {
@@ -68,3 +73,5 @@ ul#menu li a:hover {
     color: white;
     background-color: rgba(229, 0, 43, .7)
 }
+
+rese
