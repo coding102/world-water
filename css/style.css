@@ -1,41 +1,34 @@
-#bg{
-  position: fixed; 
-  top: 0; 
-  left: 0; 
-	
-  /* Preserve aspet ratio */
-  min-width: 100%;
-  min-height: 100%;
-}
+body{
+    background-image: url(../img/homebkg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* menu */
 #menubar {
-    position: fixed;
-    margin-top: 30px;
-    background-color: rgba(24, 215, 255, .7);
-    width: 100%;
-    height: 50px;
+   position: fixed;
+   margin-top: 30px;
+   background-color: rgba(24, 215, 255, .7);
+   width: 100%;
+   height: 50px;
 }
 ul#menu {
-    font-family: Helvetica;
-    font-size: 14px;
-    text-align: right;
+   font-family: Helvetica;
+   font-size: 14px;
+   text-align: right;
 }
 
 ul#menu li {
-    text-decoration: none;
-    list-style-type: none;
-    display: inline;
+   text-decoration: none;
+   list-style-type: none;
+   display: inline;
 }
 
 ul#menu li a {
-    text-decoration: none;
+   text-decoration: none;
 }
 
 ul#menu li a:hover {
-    color: white;
-    background-color: rgba(229, 0, 43, .7)
+   color: white;
+   background-color: rgba(229, 0, 43, .7)
 }
-
-rese
