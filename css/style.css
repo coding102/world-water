@@ -1,0 +1,70 @@
+body{
+	background-image: url(../img/homebkg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1 {
+	font-family: Helvetica;
+	font-size: 16px;
+	font-style: bold;
+	color: rgb(0, 51, 153);
+}
+
+h2 {
+	font-family: Helvetica;
+	font-size: 16px;
+	font-style: bold;
+	color: rgb(153, 0, 0);
+}
+
+ul#menu {
+    padding: 0;
+    display: inline-block;
+    float: left;
+    margin-top: 45px;
+    margin-left: 75px;
+/*    text-align: center;*/
+}
+
+ul#menu li {
+	color: #c3c3c3ff;
+    display: inline;
+}
+
+ul#menu li a {
+    color: rgb(123, 123, 123);
+    font-family: 'Poiret One', cursive;
+	font-size: 19px;
+	letter-spacing: 2px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+ul#menu li a:hover {
+    color: white;
+    background-color: rgba(229, 0, 43, .7)
+}
+
+ul#menu {
+    padding: 0;
+    display: inline-block;
+    float: left;
+    margin-top: 45px;
+    margin-left: 75px;
+/*    text-align: center;*/
+}
+
+ul#menu li a {
+    color: rgb(123, 123, 123);
+    font-family: 'Poiret One', cursive;
+	font-size: 19px;
+	letter-spacing: 2px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+ul#menu li a:hover {
+    color: white;
+    background-color: rgba(229, 0, 43, .7)
+}
