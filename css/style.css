@@ -47,3 +47,10 @@ ul#menu li a:hover {
    color: white;
    background-color: rgba(229, 0, 43, .7)
 }
+
+#content {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  margin-top: 30%;
+}
