@@ -18,18 +18,6 @@ time, mark, audio, video {
     background:transparent;
 }
 
-/*
-body{
-    background-image: url(../img/homebkg.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-html, body {
-    min-height: 100%;
-} */
-
-
 body{
     background-image: url(../img/homebkg.png);
     background-repeat: no-repeat;
@@ -38,24 +26,26 @@ body{
 
 
 #menubar {
+   top: 60px;
    position: fixed;
-   margin-top: 30px;
+/*   margin-top: 30px;*/
    background-color: rgba(24, 215, 255, .7);
    width: 100%;
    height: 50px;
-   margin-left: -7px;
 }
 ul#menu {
    font-family: Helvetica;
-   font-size: 14px;
+   font-size: 18px;
    text-align: right;
-   padding-right: 30px
+   padding-right: 50px;
+    margin-top: 13px;
 }
 
 ul#menu li {
    text-decoration: none;
    list-style-type: none;
    display: inline;
+    
 }
 
 ul#menu li a {
@@ -68,12 +58,20 @@ ul#menu li a:hover {
 }
 
 #content {
-    width: 60%;
+    width: 450px;
     margin: 0 auto;
-    padding-top: 120px;
+    padding: 55px;
     color: white;
+    background-color:#114ab4;
+    margin-top: 15%;
+    
 }
 
 #content h1 {
     margin-bottom: 10px;
+}
+
+#content p {
+    margin-bottom: 10px;
+    line-height: 1.5em; 
 }
