@@ -1,3 +1,24 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/*
 body{
     background-image: url(../img/homebkg.png);
     background-repeat: no-repeat;
@@ -6,18 +27,16 @@ body{
 
 html, body {
     min-height: 100%;
-}
+} */
 
-/* to keep picture aspect replace above with
 
 body{
     background-image: url(../img/homebkg.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
-*/
 
-/* menu */
+
 #menubar {
    position: fixed;
    margin-top: 30px;
@@ -46,4 +65,15 @@ ul#menu li a {
 ul#menu li a:hover {
    color: white;
    background-color: rgba(229, 0, 43, .7)
+}
+
+#content {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 120px;
+    color: white;
+}
+
+#content h1 {
+    margin-bottom: 10px;
 }
