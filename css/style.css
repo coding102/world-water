@@ -75,6 +75,11 @@ ul#menu li a:visited {
    background-color: white;
    padding: 25px 20px 25px 20px;
 }
+ul#menu li a:active {
+   color: #0a1ba4ff;
+   background-color: white;
+   padding: 25px 20px 25px 20px;
+}
 
 
 /* body and copy */
@@ -122,6 +127,19 @@ ul#menu li a:visited {
   font-family: 'Quicksand', sans-serif;
   font-weight: 700;
   font-size: 22px;
+  padding: 10px 10px 10px 10px;
+  margin: 25px 20px 0px 20px;
+  display: inline;
+  border-radius: 10px;
+}
+#button:hover {
+  background-color: rgb(142, 201, 255);
+  color: rgb(15, 64, 233);
+  height: 85px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  font-style: italic;
   padding: 10px 10px 10px 10px;
   margin: 25px 20px 0px 20px;
   display: inline;
