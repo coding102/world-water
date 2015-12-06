@@ -19,12 +19,24 @@ time, mark, audio, video {
 }
 
 body{
-    background-image: url(../img/homebkg.png);
+    background-image: url(../img/aboutbkg.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 
+/* top and menu */
+#logomark {
+  margin-top: -15px;
+  margin-left: 35px;
+  display: inline;
+}
+#social {
+  margin-top: 15px;
+  padding: 0px 5px 0px 5px;
+  float: right;
+  display: inline;
+}
 #menubar {
    top: 60px;
    position: fixed;
@@ -35,43 +47,69 @@ body{
 }
 ul#menu {
    font-family: Helvetica;
-   font-size: 18px;
+   font-size: 16px;
    text-align: right;
    padding-right: 50px;
-    margin-top: 13px;
+    margin-top: 18px;
+    display: inline-block;
+    vertical-align: top;
+    float: right;
 }
-
 ul#menu li {
    text-decoration: none;
    list-style-type: none;
    display: inline;
-    
+  padding: 18px 20px 14px 20px;
 }
-
 ul#menu li a {
    text-decoration: none;
+   padding: 18px 20px 14px 20px;
 }
-
 ul#menu li a:hover {
-   color: white;
-   background-color: rgba(229, 0, 43, .7)
+   color: #0a1ba4ff;
+   background-color: rgb(142, 220, 229);
+   padding: 18px 20px 14px 20px;
+}
+ul#menu li a:visited {
+   color: #0a1ba4ff;
+   background-color: white;
+   padding: 25px 20px 25px 20px;
 }
 
+
+/* body and copy */
 #content {
-    width: 450px;
-    margin: 0 auto;
-    padding: 55px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    line-height: 26px;
     color: white;
-    background-color:#114ab4;
-    margin-top: 15%;
-    
+    width: 500px;
+    padding: 55px;
+    background-color:rgba(34, 113, 255, .6);
+    margin-left: 450px;
+    margin-top: 10%;
+    float: left;
 }
-
 #content h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
     margin-bottom: 10px;
 }
-
+#content h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    display: inline;
+}
 #content p {
     margin-bottom: 10px;
     line-height: 1.5em; 
+}
+#content a {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 700;
 }
