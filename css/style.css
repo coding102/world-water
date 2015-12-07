@@ -125,4 +125,17 @@ ul#menu li a:visited {
   padding: 10px 10px 10px 10px;
   margin: 25px 20px 0px 20px;
   display: inline;
+  border-radius: 10px;
+}
+#button:hover {
+  background-color: rgb(142, 201, 255);
+  color: rgb(15, 64, 233);
+  height: 85px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  font-style: italic;
+  padding: 10px 10px 10px 10px;
+  margin: 25px 20px 0px 20px;
+  display: inline;
 }

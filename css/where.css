@@ -19,7 +19,7 @@ time, mark, audio, video {
 }
 
 body{
-    background-image: url(../img/crisisbkg.png);
+    background-image: url(../img/wherebkg.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -81,14 +81,16 @@ ul#menu li a:visited {
 #content {
     font-family: 'Quicksand', sans-serif;
     font-size: 14px;
+    font-weight: 700;
     line-height: 26px;
-    color: white;
-    width: 500px;
+    color: rgb(12, 43, 99);
+    width: 420px;
     padding: 55px;
-    background-color:rgba(34, 113, 255, .6);
-    margin-right: 10px;
+    background-color:rgba(255, 255, 255, .65);
+    margin-left: 150px;
     margin-top: 10%;
-    float: right;
+    float: left;
+    display: inline;
 }
 #content h1 {
     font-family: 'Quicksand', sans-serif;
@@ -108,7 +110,45 @@ ul#menu li a:visited {
 }
 #content a {
     font-family: 'Quicksand', sans-serif;
-    color: white;
+    color: #2706e9ff;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 700;
+}
+/* second block */
+#content2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    color: rgb(12, 43, 99);
+    width: 420px;
+    padding: 55px;
+    background-color:rgba(255, 255, 255, .65);
+    margin-right: 150px;
+    margin-top: 20%;
+    float: right;
+    display: inline;
+}
+#content2 h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+#content2 h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    display: inline;
+}
+#content2 p {
+    margin-bottom: 10px;
+    line-height: 1.5em; 
+}
+#content2 a {
+    font-family: 'Quicksand', sans-serif;
+    color: #2706e9ff;
     font-size: 14px;
     text-decoration: none;
     font-weight: 700;
