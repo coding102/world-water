@@ -19,7 +19,7 @@ time, mark, audio, video {
 }
 
 body{
-    background-image: url(../img/crisisbkg.png);
+    background-image: url(../img/mediabkg.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -83,12 +83,12 @@ ul#menu li a:visited {
     font-size: 14px;
     line-height: 26px;
     color: white;
-    width: 500px;
+    width: 420px;
     padding: 55px;
     background-color:rgba(34, 113, 255, .6);
-    margin-right: 10px;
+    margin-left: 350px;
     margin-top: 10%;
-    float: right;
+    float: left;
 }
 #content h1 {
     font-family: 'Quicksand', sans-serif;
